@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Candidates:</strong>
+  <%= @letter.candidates %>
+</p>
+
+<p>
+  <strong>Experience:</strong>
+  <%= @letter.experience %>
+</p>
+
+<p>
+  <strong>Industry:</strong>
+  <%= @letter.industry %>
+</p>
+
+<p>
+  <strong>Current:</strong>
+  <%= @letter.current %>
+</p>
+
+<%= link_to 'Edit', edit_letter_path(@letter) %> |
+<%= link_to 'Back', letters_path %>
